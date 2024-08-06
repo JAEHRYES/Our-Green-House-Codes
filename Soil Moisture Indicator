@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
 
-#define MOISTURE_SENSOR_PIN A0 // Analog pin for moisture sensor (can be changed as per your wiring)
+#define MOISTURE_SENSOR_PIN A1 // Analog pin for moisture sensor (can be changed as per your wiring)
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(1, 6, NEO_GRB + NEO_KHZ800);
 
